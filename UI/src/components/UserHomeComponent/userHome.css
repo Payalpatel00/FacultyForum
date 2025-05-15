@@ -1,0 +1,27 @@
+.main {
+    background-color: #fff; /* Fallback color */
+    min-height: 100vh; /* Full viewport height */
+    padding: 100px 20px 20px; /* Increased padding-top to 100px to clear navbar */
+    background-image: url('/public/assets/images/bg.png'); /* Verify this path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+  
+  .main::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay */
+    z-index: 1;
+  }
+  
+  .main > * {
+    position: relative;
+    z-index: 2;
+    color: #fff; /* Text color for readability */
+  }
