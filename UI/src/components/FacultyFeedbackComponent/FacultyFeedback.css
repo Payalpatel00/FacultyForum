@@ -1,3 +1,21 @@
+/* Remove extra space below the feedback box */
+#box1 {
+  margin-bottom: 240px;
+  padding-bottom: 10px; /* adjust as needed */
+}
+
+/* Optional: Reset default body margin */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensure no extra margin is added by table */
+.feedback-table {
+  margin-bottom: 10px;
+}
+
+
 #faculty-feedback-container {
     max-width: 1000px;
     margin: 0 auto;
