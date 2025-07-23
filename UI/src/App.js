@@ -5,7 +5,6 @@ import Nav from './components/NavComponent/Nav';
 import Footer from './components/FooterComponent/Footer';
 import Main from './components/MainComponent/Main';
 import Feedback from './components/FeedbackComponent/Feedback';
-import Chat from './components/ChatbotComponent/Chatbot';
 import Login from './components/LoginComponent/Login';
 import Logout from './components/LogoutComponent/Logout';
 import Register from './components/RegisterComponent/Register';
@@ -33,7 +32,6 @@ function App() {
           <Route  path='/admin' element={<AdminHome/>}></Route>
           <Route  path='/' element={<Main/>}></Route>
           <Route  path='/feedback' element={<Feedback/>}></Route>
-          <Route  path='/chatbot' element={<Chat/>}></Route>
           <Route  path='/profile' element={<EpUser/>}></Route>
           <Route  path='/cpuser' element={<CpUser/>}></Route>
           <Route  path='/cpadmin' element={<CpAdmin/>}></Route>

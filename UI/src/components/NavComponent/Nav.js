@@ -118,12 +118,7 @@ function Nav() {
                         Feedback
                       </Link>
                     </li>
-                    <li>
-                      <Link to="/chatbot">
-                        <FontAwesomeIcon icon={faRobot} style={{ marginRight: '8px' }} />
-                        Chat Bot
-                      </Link>
-                    </li>
+                  
                     <li className="dropdown">
                       <a
                         onClick={toggleDropdown}
